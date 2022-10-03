@@ -15,8 +15,9 @@ from model import layers
 
 # For Semantic Loss
 import sys
-sys.path.insert(0, 'model/pypsdd')
-from model.compute_mpe import CircuitMPE
+sys.path.insert(0, '..')
+sys.path.insert(0, '../pypsdd')
+from compute_mpe import CircuitMPE
 
 # Early Stopping
 from utils.early_stopping import EarlyStopping

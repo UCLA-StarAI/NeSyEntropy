@@ -4,7 +4,8 @@ import argparse
 from torch import nn
 import torch.nn.functional as F
 import sys
-sys.path.insert(0, 'pypsdd')
+sys.path.insert(0, '..')
+sys.path.insert(0, '../pypsdd')
 
 import numpy as np
 from numpy.random import permutation
