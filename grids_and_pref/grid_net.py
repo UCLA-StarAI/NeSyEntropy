@@ -203,7 +203,7 @@ if __name__ == '__main__':
                       help='L2 weight decay coefficient')
     parser.add_argument('--entropy_all', default=False, action='store_true',
                       help='Calculate the entropy on the entire output distribution')
-    parser.add_argument('--entropy_circuit', default=False, action='store_true',
+    parser.add_argument('--entropy_circuit', default=True, action='store_true',
                       help='Calcualte the entropy on the distribution over the models of the circuit')
 
 
